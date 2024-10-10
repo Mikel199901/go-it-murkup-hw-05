@@ -613,6 +613,9 @@ html {
     position: fixed;
     top: 0;
     left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     z-index: 99999;
     width: 100%;
     height: 100%;
@@ -630,10 +633,6 @@ html {
 
 .modal {
     position: relative;
-    width: 408px;
-    margin-top: 80px;
-    margin-left: auto;
-    margin-right: auto;
     border-radius: 4px;
     background-color:#FCFCFC;
     overflow: auto;
