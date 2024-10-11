@@ -533,11 +533,11 @@ html {
 
 .subscribe-container {
     position: relative;
-    display: flex;
     margin-left: 192px;
 }
 
-.label-subscribe {
+.text-subscribe {
+    margin-bottom: 16px;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -547,27 +547,27 @@ html {
     color:#FFFFFF;
 }
 
-.input-subscribe {
-    font-family: "Roboto", sans-serif;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.04em;
-    text-align: left;
+.form-subscribe {
+    display: flex;
+    gap: 24px;
+}
 
+.input-subscribe {
+    position: absolute;
     width: 264px;
     height: 40px;
-    display: block;
-    position: absolute;
-    margin-top: 16px;
-    margin-right: 348px;
+    top: 40px;
+    left: 0;
 
-    color:#ffffff;
-    background-color: rgba(17, 17, 17, 0);
     border: 1px solid #ffffff;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.149);
-    outline: none;
+    color: #ffffff;
 }
 
 .input-subscribe::placeholder {
@@ -575,36 +575,33 @@ html {
 }
 
 .button-subscribe {
+    min-width: 165px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 288px;
+
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
-    text-align: left;
+    color: #ffffff;
 
-    width: 165px;
-    height: 40px;
-    display: block;
-    position: absolute;
-    margin-left: 288px;
-    margin-top: 40px;
-    padding-left: 24px;
-
-    color:#FFFFFF;
-    background-color:#4D5AE5;
+    cursor: pointer;
+    background-color: #4D5AE5;
     border: none;
     border-radius: 4px;
-    cursor: pointer;
+}
+
+.svg-subscribe {
+    margin-left: 16px;
 }
 
 .button-subscribe:hover,
 .button-subscribe:focus {
     background-color: #404BBF;
-}
-
-.svg-subscribe {
-    position: absolute;
-    margin-left: 16px;
 }
 
 /* ============== Modal Window Styles ============== */
