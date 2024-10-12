@@ -139,8 +139,8 @@ html {
 .page-main .container-section-one {
     display: flex;
     flex-direction: column;
-    padding-top: 372px;
-    padding-bottom: 412px;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .page-main .section-one .title-one {
