@@ -134,13 +134,13 @@ html {
     background-position: center;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .page-main .container-section-one {
     display: flex;
     flex-direction: column;
-    padding-top: 188px;
-    padding-bottom: 188px;
 }
 
 .page-main .section-one .title-one {
@@ -266,12 +266,16 @@ html {
     margin-bottom: 72px;
 }
 
+.page-main .section-three .menu {
+    gap: 24px;
+}
+
 .page-main .section-three .item {
+    padding-bottom: 80px;
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
     width: calc((1128px - 72px) / 4);
-    height: 428px;
 }
 
 .page-main .section-three .icon-link {
