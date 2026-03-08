@@ -538,7 +538,6 @@
 }
 
 .input-subscribe {
-    position: absolute;
     width: 264px;
     height: 40px;
     top: 40px;
@@ -555,6 +554,10 @@
     color: #ffffff;
 }
 
+.input-subscribe:focus {
+    border-color: #4D5AE5;
+}
+
 .input-subscribe::placeholder {
     color: #ffffff;
 }
@@ -565,7 +568,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 288px;
 
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -586,7 +588,7 @@
 
 .button-subscribe:hover,
 .button-subscribe:focus {
-    background-color: #404BBF;
+    background-color: #31D0AA;
 }
 
 /* ============== Modal Window Styles ============== */
@@ -769,7 +771,6 @@
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    padding-left: 8px;
     color:#8e8f99;
 }
 
