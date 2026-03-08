@@ -75,7 +75,8 @@
     border-radius: 2px;
 }
 
-.page-header .navigation .nav:hover {
+.page-header .navigation .nav:hover,
+.page-header .navigation .nav:focus {
     color: #404BBF
 }
 
@@ -159,6 +160,7 @@
     border: none;
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .page-main .section-one .button:hover,
@@ -282,6 +284,8 @@
     letter-spacing: 0.02em;
     margin-bottom: 8px;
     text-align: center;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .page-main .section-three .text {
@@ -291,9 +295,9 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
     padding-left: 0;
     padding-right: 0;
-    text-align: center;
 }
 
 .page-main .section-three .icon-list {
