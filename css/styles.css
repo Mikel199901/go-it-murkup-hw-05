@@ -517,8 +517,7 @@
 }
 
 .subscribe-container {
-    position: relative;
-    margin-left: 80px;
+    margin-left: auto;
 }
 
 .text-subscribe {
